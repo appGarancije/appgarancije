@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Garancije – zvanična stranica</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fb;
+      color: #0b1220;
+    }
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    header {
+      background: #eef2ff;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+    }
+    h2 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-size: 20px;
+    }
+    p {
+      margin: 6px 0 10px;
+      line-height: 1.6;
+    }
+    .muted {
+      color: #5b6780;
+      font-size: 14px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 16px;
+    }
+    @media (min-width: 720px) {
+      .cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 18px 20px;
+      border: 1px solid #e2e8f0;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #e0f2fe;
+      color: #0369a1;
+      margin-bottom: 8px;
+    }
+    footer {
+      margin-top: 32px;
+      font-size: 13px;
+      color: #6b7280;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="badge">Android aplikacija</div>
+    <h1>Garancije</h1>
+    <p>Aplikacija za čuvanje fiskalnih računa i garancija na jednom mestu.</p>
+    <p class="muted">Zvanična stranica izdavača aplikacije na Google Play-u.</p>
+  </header>
+
+  <section>
+    <h2>Pravna dokumenta</h2>
+    <p>Ovde možete pronaći aktuelnu verziju politike privatnosti i uslova korišćenja aplikacije Garancije.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Politika privatnosti</h3>
+        <p>Detaljno objašnjava koje podatke aplikacija obrađuje, gde se čuvaju i koja su vaša prava.</p>
+        <p><a href="https://appgarancije.github.io/appgarancije/privacy-policy.html">
+          Otvori politiku privatnosti →
+        </a></p>
+      </div>
+
+      <div class="card">
+        <h3>Uslovi korišćenja (Terms of Service)</h3>
+        <p>Opisuje uslove korišćenja aplikacije, pretplate, bekap na Google Drive i ograničenja odgovornosti.</p>
+        <p><a href="https://appgarancije.github.io/appgarancije/terms-of-service.html">
+          Otvori uslove korišćenja →
+        </a></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>Za podršku i pitanja u vezi sa aplikacijom ili ovim dokumentima možete se obratiti na:</p>
+    <p><a href="mailto:appgarancije@gmail.com">appgarancije@gmail.com</a></p>
+  </section>
+
+  <footer>
+    © 2025 Garancije – appgarancije@gmail.com
+  </footer>
+</div>
+</body>
+</html>
